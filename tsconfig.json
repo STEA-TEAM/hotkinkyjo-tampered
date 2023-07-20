@@ -1,0 +1,43 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": [
+    "./src/**/*"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "app/*": [
+        "*"
+      ],
+      "assets/*": [
+        "src/assets/*"
+      ],
+      "components/*": [
+        "src/components/*"
+      ],
+      "layouts/*": [
+        "src/layouts/*"
+      ],
+      "pages/*": [
+        "src/pages/*"
+      ],
+      "src/*": [
+        "src/*"
+      ],
+      "stores/*": [
+        "src/stores/*"
+      ],
+      "types/*": [
+        "src/types/*"
+      ],
+      "utils/*": [
+        "src/utils/*"
+      ]
+    }
+  },
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

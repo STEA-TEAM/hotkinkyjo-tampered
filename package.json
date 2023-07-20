@@ -1,0 +1,52 @@
+{
+  "name": "hotkinkyjo-tampered",
+  "version": "1.0.0",
+  "description": "An hotkinkyjo script for enhanced experience",
+  "homepage": "https://github.com/STEA-TEAM/hotkinkyjo-tampered#readme",
+  "license": "LGPL-3.0",
+  "author": "ParticleG <particle_g@outlook.com> (https://github.com/ParticleG)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/STEA-TEAM/hotkinkyjo-tampered"
+  },
+  "scripts": {
+    "dev": "vite build -m development",
+    "build": "vite build -m production",
+    "format": "prettier --write src/",
+    "lint": "eslint . --ext .vue,.js,.cjs,.mjs,.ts,.cts,.mts --fix --ignore-path .gitignore",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.5",
+    "axios": "^1.4.0",
+    "humanize-duration": "^3.29.0",
+    "pinia": "^2.1.4",
+    "pinia-plugin-persistedstate": "^3.1.0",
+    "quasar": "^2.12.3",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@quasar/vite-plugin": "^1.4.1",
+    "@tsconfig/node18": "^2.0.1",
+    "@types/humanize-duration": "^3.27.1",
+    "@types/node": "^18.16.19",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "@vue/eslint-config-typescript": "^11.0.3",
+    "@vue/tsconfig": "^0.3.2",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-vue": "^9.15.1",
+    "prettier": "^2.8.8",
+    "rollup": "^3.26.3",
+    "rollup-plugin-sass": "^1.12.20",
+    "sass": "^1.64.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  },
+  "private": true
+}

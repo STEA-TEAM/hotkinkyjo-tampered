@@ -1,0 +1,14 @@
+{
+  "name": "HotKinkyjo Tampered",
+  "namespace": "https://github.com/STEA-TEAM",
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=hotkinkyjo.xxx",
+  "grant": [
+    "GM_deleteValue",
+    "GM_getValue",
+    "GM_listValues",
+    "GM_setValue"
+  ],
+  "match": ["*://hotkinkyjo.xxx/members/*"],
+  "run-at": "document-end",
+  "connect": ["hotkinkyjo.xxx"]
+}
