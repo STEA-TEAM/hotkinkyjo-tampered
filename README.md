@@ -1,4 +1,4 @@
-# 「 hotkinkyjo 增强脚本 」 [简体中文](README_zh-CN.md)
+# 「 hotkinkyjo enhanced script 」 [简体中文](README_zh-CN.md)
 
 [📦 Install](#Install)
 
