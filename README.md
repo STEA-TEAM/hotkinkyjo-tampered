@@ -20,9 +20,9 @@ then choose a link below to install.
 
 # Features
 
-- [x] Download videos.
-- [] Batch download videos.
-- [] Batch download images.
+- [x] Download videos
+- [] Batch download videos
+- [] Batch download images
 
 # Compatibility
 
